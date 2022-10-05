@@ -116,6 +116,10 @@
     background-color: attr(b-color);
 }
 
+[color]::before {
+    color:  attr(color);
+}
+
 /* all commonly used heights */
 
 .h-full {
